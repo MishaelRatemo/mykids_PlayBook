@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $("#lion").on("click",function(){
-        $("#lion").slideToggle();
+        // $("#lion").slideToggle();
         $("#name").addClass("nametitle")
         $("#lionfact").show();
 
@@ -9,7 +9,7 @@ $(document).ready(function(){
     
     })
     $("#cheetah").on("click",function(){
-        $("#cheetah").hide();
+        // $("#cheetah").hide();
         $("#name1").addClass("nametitle")
         $("#cheetahfact").show();
 
@@ -17,7 +17,7 @@ $(document).ready(function(){
     
     })
     $("#snake").on("click",function(){
-        $("#snake").hide();
+        // $("#snake").hide();
         $("#name2").addClass("nametitle")
         $("#snakefact").show();
 
@@ -25,7 +25,7 @@ $(document).ready(function(){
     
     })
     $("#giraffe").on("click",function(){
-        $("#giraffe").hide();
+        // $("#giraffe").hide();
         $("#name3").addClass("nametitle")
         $("#giraffefact").show();
 
@@ -33,7 +33,7 @@ $(document).ready(function(){
     
     })
     $("#elephant").on("click",function(){
-        $("#elephant").hide();
+        // $("#elephant").hide();
         $("#name4").addClass("nametitle")
         $("#elephantfact").show();
 
@@ -41,7 +41,7 @@ $(document).ready(function(){
     
     })
     $("#zebra").on("click",function(){
-        $("#zebra").hide();
+        // $("#zebra").hide();
         $("#name5").addClass("nametitle")
         $("#zebrafact").show();
 
@@ -49,7 +49,7 @@ $(document).ready(function(){
     
     })
     $("#kuku").on("click",function(){
-        $("#kuku").hide();
+        // $("#kuku").hide();
         $("#name6").addClass("nametitle")
         $("#chickenfact").show();
 
@@ -57,7 +57,7 @@ $(document).ready(function(){
     
     })
     $("#dog").on("click",function(){
-        $("#dog").hide();
+        // $("#dog").hide();
         $("#name7").addClass("nametitle")
         $("#dogfact").show();
 
@@ -65,7 +65,7 @@ $(document).ready(function(){
     
     })
     $("#cat").on("click",function(){
-        $("#cat").hide();
+        // $("#cat").hide();
         $("#name8").addClass("nametitle")
         $("#catfact").show();
 
@@ -73,7 +73,7 @@ $(document).ready(function(){
     
     })
     $("#cow").on("click",function(){
-        $("#cow").hide();
+        // $("#cow").hide();
         $("#name9").addClass("nametitle")
         $("#cowfact").show();
 
@@ -81,7 +81,7 @@ $(document).ready(function(){
     
     })
     $("#sheep").on("click",function(){
-        $("#sheep").hide();
+        // $("#sheep").hide();
         $("#name10").addClass("nametitle")
         $("#sheepfact").show();
 
@@ -89,7 +89,7 @@ $(document).ready(function(){
     
     })
     $("#horse").on("click",function(){
-        $("#horse").hide();
+        // $("#horse").hide();
         $("#name11").addClass("nametitle")
         $("#horsefact").show();
 
