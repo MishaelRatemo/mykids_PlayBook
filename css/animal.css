@@ -1,0 +1,111 @@
+/* .container-fluid h1{
+text-align: center;
+font-family: bold;
+} */
+p{
+   text-align: center;
+   font-size: 15px;
+}
+h1{
+    text-align: center;
+}
+/* img{
+    height:250px;
+    width:350px;
+    margin-left: 10px;
+    
+} */ */
+/* # */
+/* .wild h4{animal{
+    margin-left: 20px;
+}
+    margin-left: 60px;
+}
+#chui{
+    margin-left:-200px;
+}
+#giraf{
+    margin-left: -200px;
+}
+#zeb{
+    margin-left: -200px;
+} */
+#wild{
+    height:780px;
+    width:50%;
+    background-color:#F1F1F1;
+}
+/* .dosmetic{
+    float:right;
+    width:49%;
+    background-color: #F1F1F1;
+} */
+.small{
+    margin-left: 10px;
+    margin-top: 20px;
+    height:200px;
+    background-color: #57397A;
+    width:94%;
+}
+/* .small img{
+    height: 250px;
+    width:150x;
+    padding-right: 200px;
+    padding-top: 50px;
+} */
+.nametitle{
+    text-align: center;
+    font-weight: bold;
+}
+#lionfact{
+    display: none;
+}
+.name1title{
+    text-align: center;
+    font-weight: bold;
+}
+#cheetahfact{
+    display: none;
+}
+#snakefact{
+    display: none;
+}
+#giraffefact{
+    display: none;
+}
+#elephantfact{
+    display: none;
+}
+#zebrafact{
+    display: none;
+}
+#chickenfact{
+    display: none;
+}
+#dogfact{
+    display: none;
+}
+#catfact{
+    display: none;
+}
+#cowfact{
+    display: none;
+}
+#sheepfact{
+    display: none;
+}
+#horsefact{
+    display: none;
+}
+@media only screen and (max-width:768px) and (min-width:426px){
+    
+    .small{
+        background-color: transparent;
+    }
+}
+@media only screen and (max-width:425px){
+    
+    .small{
+        background-color: transparent;
+    }
+}
