@@ -38,3 +38,40 @@ function ten(){
   var my_sound = document.getElementById('10');
   my_sound.play();
 }
+// functionality for  shapes
+function circle(){
+  var my_sound = document.getElementById('circle');
+  my_sound.play();
+}
+function heart(){
+  var my_sound = document.getElementById('heart');
+  my_sound.play();
+}
+function oval(){
+  var my_sound = document.getElementById('oval');
+  my_sound.play();
+}
+function pentagon(){
+  var my_sound = document.getElementById('pentagon');
+  my_sound.play();
+}
+function rectangle(){
+  var my_sound = document.getElementById('rectangle');
+  my_sound.play();
+}
+function rhombus(){
+  var my_sound = document.getElementById('rhombus');
+  my_sound.play();
+}
+function square(){
+  var my_sound = document.getElementById('square');
+  my_sound.play();
+}
+function star(){
+  var my_sound = document.getElementById('star');
+  my_sound.play();
+}
+function triangle(){
+  var my_sound = document.getElementById('triangle');
+  my_sound.play();
+}
