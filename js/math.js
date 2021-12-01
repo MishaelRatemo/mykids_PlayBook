@@ -2,6 +2,11 @@ function One(){
   var my_sound = document.getElementById('1');
   my_sound.play();
 }
+$(document).ready(function(){
+  $("#myOne").click(function(){       
+       $("#one").slideToggle();       
+     });
+ });
 function two(){
   var my_sound = document.getElementById('2');
   my_sound.play();
@@ -67,6 +72,9 @@ function square(){
   var my_sound = document.getElementById('square');
   my_sound.play();
 }
+$("#squareShape").click(function(){       
+  $("#myquare").slideToggle();       
+});
 function star(){
   var my_sound = document.getElementById('star');
   my_sound.play();
