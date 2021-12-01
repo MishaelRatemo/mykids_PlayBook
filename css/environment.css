@@ -34,11 +34,31 @@ h1, h4, .col-md-3>p,h5{
     margin: 20px;
     border-radius: 20px;
 }
+.red:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:400px;
+    height:300px;
+    display:block;
+    z-index:999;
+    border-radius: 20px;
+}
 .blue{
     width: 300px;
     height: 250px;
     background-color:blue;
     margin: 20px;
+    border-radius: 20px;
+}
+.blue:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:400px;
+    height:300px;
+    display:block;
+    z-index:999;
     border-radius: 20px;
 }
 .yellow{
@@ -48,11 +68,31 @@ h1, h4, .col-md-3>p,h5{
     margin: 20px;
     border-radius: 20px;
 }
+.yellow:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:400px;
+    height:300px;
+    display:block;
+    z-index:999;
+    border-radius: 20px;
+}
 .green{
     width: 300px;
     height: 250px;
     background-color:green;
     margin: 20px;
+    border-radius: 20px;
+}
+.green:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:400px;
+    height:300px;
+    display:block;
+    z-index:999;
     border-radius: 20px;
 }
 .black{
@@ -62,11 +102,31 @@ h1, h4, .col-md-3>p,h5{
     margin: 20px;
     border-radius: 20px;
 }
+.black:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:400px;
+    height:300px;
+    display:block;
+    z-index:999;
+    border-radius: 20px;
+}
 .orange{
     width: 300px;
     height: 250px;
     background-color:orange;
     margin: 20px;
+    border-radius: 20px;
+}
+.orange:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:400px;
+    height:300px;
+    display:block;
+    z-index:999;
     border-radius: 20px;
 }
 .purple{
@@ -76,11 +136,31 @@ h1, h4, .col-md-3>p,h5{
     margin: 20px;
     border-radius: 20px;
 }
+.purple:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:400px;
+    height:300px;
+    display:block;
+    z-index:999;
+    border-radius: 20px;
+}
 .pink{
     width: 300px;
     height: 250px;
     background-color:rgb(252, 70, 100);
     margin: 20px;
+    border-radius: 20px;
+}
+.pink:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:400px;
+    height:300px;
+    display:block;
+    z-index:999;
     border-radius: 20px;
 }
 
