@@ -1,6 +1,7 @@
 
 header{
     background-color: salmon;
+    position:sticky;
 }
 
 .navbar-nav .nav-link{
