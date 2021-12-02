@@ -40,19 +40,27 @@ h1{
     width:49%;
     background-color: #F1F1F1;
 } */
+.small h4{
+    padding-left: 70px;
+    color: white;
+}
 .small{
     margin-left: 10px;
     margin-top: 20px;
     height:200px;
     background-color: #57397A;
     width:94%;
+    height: 350px;
 }
-/* .small img{
-    height: 250px;
-    width:150x;
-    padding-right: 200px;
+.small img{
+    height: 200px;
+    padding-top: 10px;
+    padding-right: 50px;
     padding-top: 50px;
-} */
+    padding-left: 50px;
+    border-radius: 200px;
+    padding-bottom: 50px;
+}
 #wolf{
     width:80%;
     height: 200px;
