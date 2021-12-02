@@ -3,9 +3,13 @@ function One(){
   my_sound.play();
 }
 $(document).ready(function(){
-  $("#myOne").click(function(){       
-       $("#one").slideToggle();       
+ $(".col-md-2", this).click(function(){       
+  $(".d-non", this).slideToggle();       
      });
+
+     $(".col-md-4", this).click(function(){       
+      $("#myquare", this).slideToggle();       
+    });
  });
 function two(){
   var my_sound = document.getElementById('2');
@@ -72,9 +76,7 @@ function square(){
   var my_sound = document.getElementById('square');
   my_sound.play();
 }
-$("#squareShape").click(function(){       
-  $("#myquare").slideToggle();       
-});
+
 function star(){
   var my_sound = document.getElementById('star');
   my_sound.play();

@@ -5,7 +5,7 @@ html{
   overflow-x: hidden;
 }
 /* style numbers section */
- p{
+#myOne p{
  border: 5px inset salmon;
  text-align: center;
  padding-top: 30px;
@@ -21,8 +21,9 @@ margin: 30px;
   overflow-x: hidden;
  }
  p:hover{
-   transform: rotate(180deg);
+   transform: scale(1.2);
  }
  .d-non{
    display: none;
  }
+ 
