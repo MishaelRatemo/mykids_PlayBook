@@ -58,8 +58,10 @@
         <div class="wild  col-6">
             <h4>Wild animals<br><br>Animals that live in forest</h4>
             <div class="d-flex justify-content-between">
-                <div class="col-md-6">
-                    <img id="lion" class="img-fluid" src="Images/simba.png" alt=""><br><h5 id="name">Lion</h5>
+                <div class="col-md-6" onclick="simba()">
+                    <img id="lion" class="img-fluid" src="Images/simba.png" alt="#"><br><h5 id="name">Lion</h5>
+                    <audio id="Lion" src="animals/lion.mp3"></audio>
+
                     <ul id="lionfact">
                         <li>Lions are the only cats that live in groups</li>
                         <li>A group, or pride, can be up to 30 lions, depending on how much food and water is available.
@@ -73,8 +75,10 @@
 
                     
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" onclick="cheetah()">
                     <img id="cheetah" img class="img-fluid" src="Images/Cheetah.png" alt=""><br><h5 id="name1">Cheetah</h5>
+                    <audio id="Cheetah" src="animals/tiger.mp3"></audio>
+
                     <ul id="cheetahfact">
                         <li>Cheetahs Are the World's Fastest Land Mammal. ...
                         </li>
@@ -86,35 +90,47 @@
                 </div>
             </div>
             <div class="d-flex justify-content-between">
-                <div class="col-md-6">
-                    <img id="snake"class="img-fluid" src="Images/Snake.png" alt=""><br><h5 id="name2">Snake</h5>
-                    <ul id="snakefact">
-                        <li>Snakes smell with their tongues. ...
+                <div class="col-md-6" onclick="wolf()">
+                    <img id="wolf"class="img-fluid" src="Images/wolf.jpg" alt=""><br><h5 id="name2">Wolf</h5>
+                    <audio id="Wolf" src="animals/wolf.mp3"></audio>
+
+                    <ul id="wolffact">
+                        <li>COMMON FOOD. ungulates.
+
                         </li>
-                        <li>Some snakes are venomous! ...
-                                </li>
-                        <li>There are over 3,000 different species of snakes.
-                                          </li>
+                        <li>LENGTH OF LIFE. up to 13 years in wild.<br> (usually 6 to 8 years)</li>
+
+                                
+                        <li>AVERAGE WEIGHT. females: 60 to 80 pounds. <br>males: 70 to 110 pounds
+                            .</li>
+                                          
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    <img id="giraffe"class="fluid" src="Images/Giraffe.png" alt=""><br><h5 id="name3">Giraffe</h5>
-                    <ul id="giraffefact">
-                        <li>Giraffes are the tallest mammal in the world. ...
+                <div class="col-md-6" onclick="fox()">
+                    <img id="fox"class="fluid" src="Images/fox.jpeg" alt=""><br><h5 id="name3">Fox</h5>
+                    <audio id="Fox" src="animals/fox.mp3"></audio>
+
+                    <ul id="foxfact">
+                        <li>Foxes live in underground dens. ...
+
 
                         </li>
-                        <li>Giraffes don't need much sleep. ...
+                        <li>Foxes are solitary</li>
 
-                                </li>
-                        <li>Giraffes can stand half an hour after being born. ...
 
-                                          </li>
+                               
+                        <li>Foxes are extremely playful.</li>
+
+
+                                          
                     </ul>
                 </div>
             </div>
             <div class="d-flex justify-content-between">
-                <div class="col-md-6">
+                <div class="col-md-6" onclick="elephant()">
                     <img id="elephant"class="img-fluid" src="Images/Elephant.png" alt=""><br><h5 id=name4>Elephant</h5>
+                    <audio id="Elephant" src="animals/elephant.mp3"></audio>
+
                     <ul id="elephantfact">
                         <li>They're the world's largest land animal. ... </li>
 
@@ -129,8 +145,10 @@
                                          
                     </ul>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" onclick="zebra()">
                     <img id="zebra"class="img-fluid" src="Images/zebra.png" alt=""><br><h5 id="name5">Zebra</h5>
+                    <audio id="Zebra" src="animals/zebra.mp3"></audio>
+
                     <ul id="zebrafact">
                         <li> They are classified as Endangered. ...
                         </li>
@@ -150,8 +168,10 @@
             <h4>Domestic animals<br><br>Animals that live in our homes</h4>
 
             <div class="d-flex justify-content-between">
-                <div class="col-md-6">
+                <div class="col-md-6" onclick="chicken()">
                     <img id="kuku"class="img-fluid" src="Images/kuku.png" alt=""><br><h5 id="name6">Chicken</h5>
+                    <audio id="Chicken" src="animals/chicken.mp3"></audio>
+
                     <ul id="chickenfact">
                         <li> Chickens are omnivores
                         </li>
@@ -165,8 +185,10 @@
                     
 
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" onclick="dog()">
                     <img id="dog"class="img-fluid"src="Images/dog.png" alt=""><br><h5 id="name7">Dog</h5>
+                    <audio id="Dog" src="animals/dog.mp3"></audio>
+
                     <ul id="dogfact">
                         <li> Their sense of smell is at least 40x <br>better than ours. 
                         </li>
@@ -180,8 +202,10 @@
                 </div>
             </div>
             <div class="d-flex justify-content-between">
-                <div class="col-md-6">
+                <div class="col-md-6" onclick="cat()">
                     <img id="cat"class="img-fluid" src="Images/cat.png" alt=""><br><h5 id="name8">Cat</h5>
+                    <audio id="Cat" src="animals/cat.mp3"></audio>
+
                     <ul id="catfact">
                         <li> Cats are one of, if not the most, popular pet in the world. </li>
  
@@ -195,8 +219,10 @@
                     </ul>
                     
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" onclick="cow()">
                     <img id="cow"class="img-fluid" src="Images/cow.png" alt=""><br><h5 id="name9">Cow</h5>
+                    <audio id="Cow" src="animals/cow.mp3"></audio>
+
                     <ul id="cowfact">
                         <li> All cows are actually considered female</li>
                         
@@ -213,8 +239,10 @@
                 </div>
             </div>
             <div class="d-flex justify-content-between">
-                <div class="col-md-6">
+                <div class="col-md-6" onclick="sheep()">
                     <img id="sheep"class="img-fluid" src="Images/sheep.png" alt=""><br><h5 id="name10">Sheep</h5>
+                    <audio id="Sheep" src="animals/sheep.mp3"></audio>
+
                     <ul id="sheepfact">
                         <li>Sheep have great memories</li>
                         
@@ -227,8 +255,10 @@
                         
                     
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" onclick="horse()">
                     <img id="horse"class="img-fluid"src="Images/horse.png" alt=""><br><h5 id="name11">Horse</h5>
+                    <audio id="Horse" src="animals/horse.mp3"></audio>
+
                     <ul id="horsefact">
                         <li>Horses can't breathe through their mouth.</li>
                         
