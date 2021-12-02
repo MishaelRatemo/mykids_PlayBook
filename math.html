@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>math-section</title>
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/math.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand text-dark bg-white" href="index.html"> <img src="/img/home/logo.png" class="img-fluid" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-center" id="menu">
+            <div class="navbar-nav bg-secondary p-1 px-5 rounded-pill">
+              <a class="nav-link text-light fs-6 active" aria-current="page" href="index.html">
+                  <img src="img/home/Ellipse 10.png" class="img-fluid" alt="">
+                  <img src="img/home/home.png" class="navtext position-absolute top-50 start-50 translate-middle" alt="">
+              </a>
+              <a class="nav-link text-light fs-6" href="animal.html">
+                  <img src="img/home/Ellipse 10.png" class=" img-fluid" alt="">
+                  <img src="img/home/anima.png" class="navtext position-absolute top-50 start-50 translate-middle" alt="">
+                </a>
+              <a class="nav-link text-light fs-6" href="environment.html">
+                  <img src="img/home/Ellipse 10.png" class=" img-fluid" alt="">
+                  <img src="img/home/environ.png" class="navtext position-absolute top-50 start-50 translate-middle" alt=""></a>
+              <a class="nav-link text-light fs-6" href="math.html">
+                  <img src="img/home/Ellipse 10.png" class=" img-fluid" alt="">
+                  <img src="img/home/maths.png" class="navtext position-absolute top-50 start-50 translate-middle" alt="">  </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+</header>
+  <h1 class="text-center">Mathematics Corner</h1>
+  <h3 class="text-center">Numbers</h3>
+<div class="container-fluid numbers bg-light">
+  <div class="row">
+    <div class="col-md-2" id="myOne" onclick="One()">
+      <p>1</p>
+      <audio id="1" src="audios/numbers/one.mp3"></audio>
+      <h3 class="d-non display-5 text-center text-white bg-dark" id="one" >One</h3>
+    </div>
+    <div class="col-md-2" onclick="two()">
+      <p>2</p>
+      <audio id="2" src="audios/numbers/twoo.mp3"></audio>
+      <p class="d-none" id="two"></p>
+    </div>
+    <div class="col-md-2" onclick="three()">
+      <p>3</p>
+      <audio id="3" src="audios/numbers/three.mp3"></audio>
+    </div>
+    <div class="col-md-2" onclick="four()">
+      <p>4</p>
+      <audio id="4" src="audios/numbers/four.mp3"></audio>
+    </div>
+    <div class="col-md-2" onclick="five()">
+      <p>5</p>
+      <audio id="5" src="audios/numbers/five.mp3"></audio>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-md-2" onclick="six()">
+      <p>6</p>
+      <audio id="6" src="audios/numbers/six.mp3"></audio>
+    </div>
+    <div class="col-md-2" onclick="seven()">
+      <p>7</p>
+      <audio id="7" src="audios/numbers/seven.mp3"></audio>
+    </div>
+    <div class="col-md-2" onclick="eight()">
+      <p>8</p>
+      <audio id="8" src="audios/numbers/eight.mp3"></audio>
+    </div>
+    <div class="col-md-2" onclick="nine()">
+      <p>9</p>
+      <audio id="9" src="audios/numbers/nine.mp3"></audio>
+    </div>
+    <div class="col-md-2" onclick="ten()">
+      <p>10</p>
+      <audio id="10" src="audios/numbers/ten.mp3"></audio>
+    </div>
+  </div>
+</div>
+
+<!-- shapes section begins here -->
+<h3 class="text-center mt-5">Shapes</h3>
+<div class="container bg-light">
+  <div class="row">
+    <div class="col-md-4">
+      <img class="img-fluid hover-overlay" id="squareShape" src="./img/img-math/square.png" onclick="square()" alt="square">
+      <audio id="square" src="audios/shapes/square.mp3"></audio>
+      <h3 class="d-non display-5 text-center text-white bg-dark" id="myquare">Square</h2>
+    </div>
+    <div class="col-md-4">
+      <img class="img-fluid" src="./img/img-math/circle.png"  onclick="circle()" alt="circle">
+      <audio id="circle" src="audios/shapes/circle.mp3"></audio>
+    </div>
+    <div class="col-md-4">
+      <img class="img-fluid" src="./img/img-math/triangle.png" onclick="triangle()" alt="triangle">
+      <audio id="triangle" src="audios/shapes/triagle.mp3"></audio>
+    </div>
+  </div>
+  <div class="row mt-5 me-1">
+    <div class="col-md-4">
+      <img class="img-fluid" src="./img/img-math/oval.png" onclick="oval()" alt="oval">
+      <audio id="oval" src="audios/shapes/oval.mp3"></audio>
+    </div>
+    <div class="col-md-4">
+      <img class="img-fluid" src="./img/img-math/rectangle.png" onclick="rectangle()" alt="rectangle">
+      <audio id="rectangle" src="audios/shapes/Rectangle.mp3"></audio>
+    </div>
+    <div class="col-md-4">
+      <img class="img-fluid" src="./img/img-math/heart.png" onclick="heart()" alt="heart">
+      <audio id="heart" src="audios/shapes/heart.mp3"></audio>
+    </div>
+    <div class="col-md-4">
+      
+      <img class="img-fluid" src="./img/img-math/" onclick="star()" alt="star">
+      <audio id="star" src="audios/shapes/Star.mp3"></audio>
+    </div>
+    <div class="col-md-4">
+      
+      <img class="img-fluid" src="./img/img-math/" onclick="pentagon()" alt="pentagon">
+      <audio id="pentagon" src="audios/shapes/pentagon.mp3"></audio>
+    </div>
+    <div class="col-md-4">
+      
+      <img class="img-fluid" src="./img/img-math/" onclick="rhombus()" alt="rhombus">
+      <audio id="rhombus" src="audios/shapes/rhombas.mp3"></audio>
+    </div>
+  </div>
+</div>
+    <!-- footers -->
+    <footer>
+      <div class="container-fluid">
+          <div class="row">
+            
+              <div class="col-md-3">
+                  <h5>About Us</h5>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                      Repellendus non nulla dolorem mollitia eum maiores consequatur 
+                      earum totam molestias est hic tenetur repellat quibusdam, nemo 
+                      numquam similique in? Dicta, eveniet.</p>
+              </div>
+              <div class="col-md-6">
+                  <div class="icons">
+                      <h5>Around The Web</h5>
+                      <i class="fab fa-facebook"></i>
+                      <i class="fab fa-instagram"></i>
+                      <i class="fab fa-twitter"></i>
+                      <i class="fab fa-facebook-messenger"></i>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <h5>Contact US</h5>
+                   <phone>+254734556432</phone>
+                   <div id="email">helpdesk@kid.play.com</div>
+              </div>
+          </div>
+      </div>
+  </footer>
+<script src="js/math.js"></script>
+</body>
+</html>

@@ -27,10 +27,13 @@ header{
     font-weight: 700;
 }
 
-#resources{
-    background-color: salmon;
-}
 #resources .row .card{
-    width: 47% !important;
-
+    background-color: salmon;
+    height: 250px;
+}
+.carousel img{
+    height: 500px;
+}
+#logo{
+    padding: -20px;
 }

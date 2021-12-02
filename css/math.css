@@ -1,0 +1,28 @@
+/* styling mathematics corner starts here */
+html{
+  margin: 0px;
+  padding-left: 0px;
+  overflow-x: hidden;
+}
+/* style numbers section */
+ p{
+ border: 5px inset salmon;
+ text-align: center;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ font-size: 400%;
+ border-radius: 20px;
+ border-bottom: 50px;
+ color: springgreen;
+margin: 30px;
+ }
+ .numbers{
+  margin-left: 70px;
+  overflow-x: hidden;
+ }
+ p:hover{
+   transform: rotate(180deg);
+ }
+ .d-non{
+   display: none;
+ }
