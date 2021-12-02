@@ -53,13 +53,13 @@ h1{
     height: 350px;
 }
 .small img{
-    height: 200px;
+    height: 250px;
     padding-top: 10px;
     padding-right: 50px;
     padding-top: 50px;
     padding-left: 50px;
-    border-radius: 200px;
-    padding-bottom: 50px;
+    border-radius: 50%;
+    padding-bottom: 40px;
 }
 #wolf{
     width:80%;
