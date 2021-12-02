@@ -7,7 +7,7 @@ $(document).ready(function(){
   $(".d-non", this).slideToggle();       
      });
 
-     $(".col-md-4", this).click(function(){       
+     $(".shapes", this).click(function(){       
       $("#myquare", this).slideToggle();       
     });
  });
