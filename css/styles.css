@@ -34,6 +34,6 @@ header{
     background-color: salmon;
 }
 #resources .row .card{
-    width: 47% !important;
-
+    background-color: salmon;
+    height: 250px;
 }
