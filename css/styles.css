@@ -17,7 +17,7 @@ header{
     background-color: rgba(8, 4, 4, 0.6);
     width: 70%;
     margin: auto;
-    border-radius: 40%;
+    border-radius: 50px;
 }
 .carousel-caption h2{
     font-weight: 900;
