@@ -18,7 +18,7 @@ As a customer can;
 - The is able to do some simple arithmetic operations.
 - User is able to give a feedback.
 
- ## Live [Demo]() page
+ ## Live [Demo](**************) page
  
 
 
@@ -44,7 +44,7 @@ As a customer can;
     + For Linux users
        - on your keyboard press Alt+Shift+ I to open terminal
        - navigate to the target directory
-       - then write command   git clone https://git@github.com:MishaelRatemo/*****  for https and  it clone git@github.com:MishaelRatemo/******for users of SSH key.
+       - then write command   git clone https://git@github.com:MishaelRatemo/*****  for https and  it clone git@github.com:MishaelRatemo/****** for users of SSH key.
  
 ## Requirements
 
@@ -72,6 +72,7 @@ Copyright (c) [2021] [Faiso Haji]
 LinkedIn - [Mishael Ratemo](www.linkedin.com/in/mishael-mosoti-37b786161/)
 
 Portfolio- [Mishael](https://mishaelratemo.github.io/my_portfolio/)
+Portfolio- [Jane Njoroge](https://njoroge-jane.github.io/My-Portfolio/)
 
 
 
