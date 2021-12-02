@@ -23,3 +23,6 @@ margin: 30px;
  p:hover{
    transform: rotate(180deg);
  }
+ .d-non{
+   display: none;
+ }

@@ -8,6 +8,10 @@ header{
     /* background-image: url(../img/home/Ellipse\ 10.png);
     background-size: cover; */
 }
+#slider{
+    margin: 0 !important;
+    /* height: 50vh !important; */
+}
 .carousel-caption{
     background-color: rgba(8, 4, 4, 0.6);
     width: 70%;

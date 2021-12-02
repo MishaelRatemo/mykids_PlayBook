@@ -53,6 +53,14 @@ h1{
     padding-right: 200px;
     padding-top: 50px;
 } */
+#wolf{
+    width:80%;
+    height: 200px;
+}
+#fox{
+    width:80%;
+    height:200px;
+}
 .nametitle{
     text-align: center;
     font-weight: bold;
