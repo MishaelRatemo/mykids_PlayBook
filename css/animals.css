@@ -1,0 +1,6 @@
+.col-md-6:hover{
+    transition: .4s ease-in-out;
+    transform: scale(1.2);
+    color: salmon;
+    font-weight: 900;
+}

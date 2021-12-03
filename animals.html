@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,27 +9,30 @@
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap Js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/animal.css">
+    <!-- Latest Jquery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h3ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="css/animals.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar navbar-expand-lg bg-dark ">
             <div class="container-fluid">
-                <a class="navbar-brand text-dark bg-white" href="index.html"> <img src="/img/home/logo.png"
-                        class="img-fluid" alt="logo"></a>
+                <a class="navbar-brand text-dark bg-white rounded-pill" href="index.html"> <img src="/img/home/logo.png"
+                        class="img-fluid " alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
                     aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse d-flex justify-content-center" id="menu">
-                    <div class="navbar-nav bg-secondary p-1 px-5 rounded-pill">
+                    <div class="navbar-nav bg-dark p-1 px-5 rounded-pill">
                         <a class="nav-link text-light fs-6 active" aria-current="page" href="index.html">
                             <img src="img/home/Ellipse 10.png" class="img-fluid" alt="">
                             <img src="img/home/home.png"
@@ -46,8 +49,7 @@
                                 class="navtext position-absolute top-50 start-50 translate-middle" alt=""></a>
                         <a class="nav-link text-light fs-6" href="math.html">
                             <img src="img/home/Ellipse 10.png" class=" img-fluid" alt="">
-                            <img src="img/home/maths.png"
-                                class="navtext position-absolute top-50 start-50 translate-middle" alt=""> </a>
+                            <img src="img/home/maths.png"     class="navtext position-absolute top-50 start-50 translate-middle" alt=""> </a>
                     </div>
                 </div>
             </div>
@@ -55,91 +57,92 @@
     </header>
 
     <div class="container-fluid">
-        <h1>ANIMALS</h1>
-        <p>Lets Learn about animals and their sounds they make!!<br> Know animals around You!!
-        </p>
+        <h1 class=" text-center display-2 fw-bolder">ANIMALS</h1>
+        <!-- <p class=" text-capitalize text-center display-6 fw-bold">Lets Learn about animals and their sounds they make!!<br> Know animals around You!!  </p> -->
         <div class="row justify-content-between">
 
             <div class="wild  col-6">
-                <h4>Wild animals<br><br>Animals that live in forest</h4>
+                <h4 class=" text-center display-3 fw-bolder">Wild animals </h4>
+                    <!-- <p class=" text-center  fw-normal">Animals that live in forest</p> -->
                 <div class="d-flex justify-content-between">
-                    <div class="col-md-6" onclick="simba()">
-                        <img id="lion" class="img-fluid" src="Images/simba.png" alt="#"><br>
-                        <h5 id="name">Lion</h5>
+                    <div class="col-md-6 p-2  m-2" onclick="simba()">
+                        <img id="lion" class="img-fluid" onclick="simba()" src="Images/simba.png" alt="#"><br>
+                        <h3 class=" display-1 text-center" class=" display-1" id="name">Lion</h3>
                         <audio id="Lion" src="animals/lion.mp3"></audio>
                     </div>
-                    <div class="col-md-6" onclick="cheetah()">
+                    <div class="col-md-6 p-2  m-2" onclick="cheetah()">
                         <img id="cheetah" img class="img-fluid" src="Images/Cheetah.png" alt=""><br>
-                        <h5 id="name1">Cheetah</h5>
+                        <h3 class=" display-1 text-center" class=" display-1" id="name1">Cheetah</h3>
                         <audio id="Cheetah" src="animals/cheetah.mp3"></audio>
                     </div>
                 </div>
                 <div class="d-flex justify-content-between">
-                    <div class="col-md-6" onclick="wolf()">
-                        <img id="wolf" class="img-fluid" src="Images/wolf.jpg" alt=""><br>
-                        <h5 id="name2">Wolf</h5>
+                    <div class="col-md-6 p-2  m-2" onclick="wolf()">
+                        <img id="wolf" class="img-fluid" src="Images/wolf.png" alt=""><br>
+                        <h3 class=" display-1 text-center" class=" display-1" id="name2">Wolf</h3>
                         <audio id="Wolf" src="animals/wolf.mp3"></audio>
                     </div>
-                    <div class="col-md-6" onclick="fox()">
-                        <img id="fox" class="fluid" src="Images/fox.jpeg" alt=""><br>
-                        <h5 id="name3">Fox</h5>
+                    <div class="col-md-6 p-2  m-2" onclick="fox()">
+                        <img id="fox" class="img-fluid" src="Images/fox.png" alt=""><br>
+                        <h3 class=" display-1 text-center" class=" display-1" id="name3">Fox</h3>
                         <audio id="Fox" src="animals/fox.mp3"></audio>
                     </div>
                 </div>
                 <div class="d-flex justify-content-between">
-                    <div class="col-md-6" onclick="elephant()">
+                    <div class="col-md-6 p-2  m-2" onclick="elephant()">
                         <img id="elephant" class="img-fluid" src="Images/Elephant.png" alt=""><br>
-                        <h5 id=name4>Elephant</h5>
+                        <h3 class=" display-1 text-center" class=" display-1" id=name4>Elephant</h3>
                         <audio id="Elephant" src="animals/elephant.mp3"></audio>
 
                     </div>
-                    <div class="col-md-6" onclick="zebra()">
+                    <div class="col-md-6 p-2  m-2" onclick="zebra()">
                         <img id="zebra" class="img-fluid" src="Images/zebra.png" alt=""><br>
-                        <h5 id="name5">Zebra</h5>
+                        <h3 class=" display-1 text-center" class=" display-1" id="name5">Zebra</h3>
                         <audio id="Zebra" src="animals/zebra.mp3"></audio>
                     </div>
                 </div>
 
             </div>
             <div class="dosmetic  col-6">
-                <h4>Domestic animals<br><br>Animals that live in our homes</h4>
+                <h4 class=" text-center display-2 fw-bolder">Domestic animals </h4>
+                    <!-- <p class=" text-center f fw-normal">Animals that live in our homes</p> -->
 
                 <div class="d-flex justify-content-between">
-                    <div class="col-md-6" onclick="chicken()">
+                    <div class="col-md-6 p-2  m-2" onclick="chicken()">
                         <img id="kuku" class="img-fluid" src="Images/kuku.png" alt=""><br>
-                        <h5 id="name6">Chicken</h5>
+                        <h3 class=" display-1 text-center" class=" display-1" id="name6">Chicken</h3>
                         <audio id="Chicken" src="animals/chicken.mp3"></audio>
                     </div>
-                    <div class="col-md-6" onclick="dog()">
+                    <div class="col-md-6 p-2  m-2" onclick="dog()">
                         <img id="dog" class="img-fluid" src="Images/dog.png" alt=""><br>
-                        <h5 id="name7">Dog</h5>
+                        <h3 class=" display-1 text-center" class=" display-1" id="name7">Dog</h3>
                         <audio id="Dog" src="animals/dog.mp3"></audio>
                     </div>
                 </div>
                 <div class="d-flex justify-content-between">
-                    <div class="col-md-6" onclick="cat()">
+                    <div class="col-md-6 p-2  m-2" onclick="cat()">
                         <img id="cat" class="img-fluid" src="Images/cat.png" alt=""><br>
-                        <h5 id="name8">Cat</h5>
+                        <h3 class=" display-1 text-center" class=" display-1" id="name8">Cat</h3>
                         <audio id="Cat" src="animals/cat.mp3"></audio>
 
 
                     </div>
-                    <div class="col-md-6" onclick="cow()">
+                    <div class="col-md-6 p-2  m-2" onclick="cow()">
                         <img id="cow" class="img-fluid" src="Images/cow.png" alt=""><br>
-                        <h5 id="name9">Cow</h5>
+                        <h3 class=" display-1 text-center" class=" display-1" id="name9">Cow</h3>
                         <audio id="Cow" src="animals/cow.mp3"></audio>
                     </div>
                 </div>
                 <div class="d-flex justify-content-between">
-                    <div class="col-md-6" onclick="sheep()">
+                    <div class="col-md-6 p-2  m-2" onclick="sheep()">
                         <img id="sheep" class="img-fluid" src="Images/sheep.png" alt=""><br>
-                        <h5 id="name10">Sheep</h5>
+                        <h3 class=" display-1 text-center" class=" display-1" id="name10">Sheep</h3>
                         <audio id="Sheep" src="animals/sheep.mp3"></audio>
 
                     </div>
-                    <div class="col-md-6" onclick="horse()">
+                    <div class="col-md-6 p-2  m-2" onclick="horse()">
                         <img id="horse" class="img-fluid" src="Images/horse.png" alt=""><br>
-                        <h5 id="name11">Horse</h5>
+                        <h3 class=" display-1 text-center" class=" display-1" id="name11">Horse</h3>
                         <audio id="Horse" src="animals/horse.mp3"></audio>
                     </div>
                 </div>
@@ -147,7 +150,9 @@
         </div>
 
     </div>
-    <div class="small ">
+
+
+    <!-- <div class="small ">
         <div class="d-flex justify-content-between">
             <div class="col-md-2">
                 <img class="img-fluid" src="Images/Amphibians.jpeg" alt=""><br>
@@ -174,7 +179,9 @@
                 <h4>Reptiles</h4>
             </div>
         </div>
-    </div>
+    </div> -->
+
+
     <!-- footers -->
     <footer class=" d-flex justify-content-around bg-secondary text-light p-5  fs-3 ">
         <div class="col-4 text-center">
