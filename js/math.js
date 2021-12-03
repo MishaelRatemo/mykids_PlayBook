@@ -1,9 +1,79 @@
+// Alphabet
+function letterA(){
+  var my_sound = document.getElementById('A');
+  my_sound.play();
+}
+function letterB(){
+  var my_sound = document.getElementById('B');
+  my_sound.play();
+}
+
+function letterC(){
+  var my_sound = document.getElementById('C');
+  my_sound.play();
+}
+function letterD(){
+  var my_sound = document.getElementById('D');
+  my_sound.play();
+}
+function letterE(){
+  var my_sound = document.getElementById('E');
+  my_sound.play();
+}
+function letterM(){
+  var my_sound = document.getElementById('M');
+  my_sound.play();
+}
+function letterY(){
+  var my_sound = document.getElementById('Y');
+  my_sound.play();
+}
+
+
+
+
+// Letter sounds
+function soundA(){
+  var my_sound = document.getElementById('sA');
+  my_sound.play();
+}
+function soundB(){
+  var my_sound = document.getElementById('sB');
+  my_sound.play();
+}
+
+function soundC(){
+  var my_sound = document.getElementById('sC');
+  my_sound.play();
+}
+function soundD(){
+  var my_sound = document.getElementById('sD');
+  my_sound.play();
+}
+function soundE(){
+  var my_sound = document.getElementById('sE');
+  my_sound.play();
+}
+function soundF(){
+  var my_sound = document.getElementById('sF');
+  my_sound.play();
+}
+function soundY(){
+  var my_sound = document.getElementById('sY');
+  my_sound.play();
+}
+
+
+
+
+
+
 function One(){
   var my_sound = document.getElementById('1');
   my_sound.play();
 }
 $(document).ready(function(){
- $(".col-md-2", this).click(function(){       
+ $(".nums", this).click(function(){       
   $(".d-non", this).slideToggle();       
      });
 

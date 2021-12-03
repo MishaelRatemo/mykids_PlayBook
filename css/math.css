@@ -1,29 +1,37 @@
-/* styling mathematics corner starts here */
-html{
-  margin: 0px;
-  padding-left: 0px;
-  overflow-x: hidden;
-}
-/* style numbers section */
-#myOne p{
- border: 5px inset salmon;
- text-align: center;
- padding-top: 30px;
- padding-bottom: 30px;
- font-size: 400%;
- border-radius: 20px;
- border-bottom: 50px;
- color: springgreen;
-margin: 30px;
- }
- .numbers{
-  margin-left: 70px;
-  overflow-x: hidden;
- }
- p:hover{
-   transform: scale(1.2);
- }
  .d-non{
    display: none;
+   padding:15px;
+   border-radius: 50%;
  }
  
+ .nums{
+    box-shadow: 2px 3px 4px 7px ;
+    padding: 3%;
+    border-radius: 15px;
+    background-color: salmon;
+    color: white;
+ }
+ .nums p{
+   text-align: center;
+   padding: 1%;
+   border-radius: 10px;
+ }
+ .words{
+   padding:3%;
+   border-radius: 50%;
+ }
+.nums:nth-child(odd){
+    background-color:rgb(149, 194, 149);
+ }
+
+ .shapes img{
+   margin: auto;
+   width: 80%;
+ }
+ #myquare{
+   border-radius: 20px;
+   width: 50%;
+   margin: auto;
+   padding: 3%;
+   font-weight: 900;
+ }
