@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/environment.css">
+    <!-- Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1cbe3eaaea.js" crossorigin="anonymous"></script>
+    <script src="js/environ.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>MyKids PlayBook</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand text-dark bg-white rounded-pill" href="index.html"> <img src="/img/home/logo.png"
+                        class="img-fluid " alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-center" id="menu">
+                    <div class="navbar-nav bg-dark p-1 px-5 rounded-pill">
+                        <a class="nav-link text-light fs-6 active" aria-current="page" href="index.html">
+                            <img src="img/home/Ellipse 10.png" class="img-fluid" alt="">
+                            <img src="img/home/home.png"
+                                class="navtext position-absolute top-50 start-50 translate-middle" alt="">
+                        </a>
+                        <a class="nav-link text-light fs-6" href="animal.html">
+                            <img src="img/home/Ellipse 10.png" class=" img-fluid" alt="">
+                            <img src="img/home/anima.png"
+                                class="navtext position-absolute top-50 start-50 translate-middle" alt="">
+                        </a>
+                        <a class="nav-link text-light fs-6" href="environment.html">
+                            <img src="img/home/Ellipse 10.png" class=" img-fluid" alt="">
+                            <img src="img/home/environ.png"
+                                class="navtext position-absolute top-50 start-50 translate-middle" alt=""></a>
+                        <a class="nav-link text-light fs-6" href="math.html">
+                            <img src="img/home/Ellipse 10.png" class=" img-fluid" alt="">
+                            <img src="img/home/maths.png"     class="navtext position-absolute top-50 start-50 translate-middle" alt=""> </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <h1>ENVIRONMENT</h1>
+
+        <h4>NATURAL</h4>
+        <div class="row">
+            <div class="col-md-3 hoov">
+                <div onclick="playsun()">
+                    <img src="img/environment images/sun.jpg" class=" img-fluid">
+                    <audio id="audiosun" src="img/audio/sun.mp4"></audio>
+                    <p>SUN</p>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div onclick="playmoon()">
+                    <img src="img/environment images/moon.jpg" class=" img-fluid">
+                    <audio id="audiomoon" src="img/audio/moon.mp4"></audio>
+                    <p>MOON</p>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div onclick="playstars()">
+                    <img src="img/environment images/stars.jpg" class=" img-fluid">
+                    <audio id="audiostars" src="img/audio/stars.mp4"></audio>
+                    <p>STARS</p>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div onclick="playsky()">
+                    <img src="img/environment images/sky.jpg" class=" img-fluid">
+                    <audio id="audiosky" src="img/audio/sky.mp4"></audio>
+                    <p>SKY</p>
+                </div>
+            </div>
+        </div>
+        <!-- plants -->
+        <div class="row">
+            <h4>PLANTS</h4>
+            <div class="col-md-3 ">
+                <div onclick="playleave()">
+                    <img src="img/environment images/leave tree.jpg" class=" img-fluid">
+                    <audio id="audioleave" src="img/audio/leaves.mp4"></audio>
+                    <p>LEAVES</p>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div onclick="playtree()">
+                    <img src="img/environment images/trees.jpg" class=" img-fluid">
+                    <audio id="audiotree" src="img/audio/tree.mp4"></audio>
+                    <p>TREES</p>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div onclick="playforest()">
+                    <img src="img/environment images/forrest.jpg" class=" img-fluid">
+                    <audio id="audioforest" src="img/audio/forest.mp4"></audio>
+                    <p>FORREST</p>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div onclick="playgrass()">
+                    <img src="img/environment images/grass.jpg" class=" img-fluid">
+                    <audio id="audiograss" src="img/audio/grasss.mp4"></audio>
+                    <p>GRASS</p>
+                </div>
+            </div>
+        </div>
+        <!-- water bodies -->
+        <div class="row bg-info">
+            <h4>WATER BODIES</h4>
+            <div class="col-md-3 ">
+                <div onclick="playocean()">
+                    <img src="img/environment images/ocean water.jpg" class=" img-fluid">
+                    <audio id="audiocean" src="img/audio/ocean.mp4"></audio>
+                    <p>OCEAN WATER</p>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div onclick="playriver()">
+                    <img src="img/environment images/river water.jpg" class=" img-fluid">
+                    <audio id="audioriver" src="img/audio/river.mp4"></audio>
+                    <p>RIVER</p>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div onclick="playlake()">
+                    <img src="img/environment images/lake water.jpg" class=" img-fluid">
+                    <audio id="audiolake" src="img/audio/lake.mp4"></audio>
+                    <p>LAKE</p>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div onclick="playwaterfall()">
+                    <img src="img/environment images/water falls.jpg" class=" img-fluid h-25">
+                    <audio id="audiowaterfall" src="img/audio/waterfall.mp4"></audio>
+                    <p>WATER FALLS</p>
+                </div>
+            </div>
+        </div>
+        <!-- landscape -->
+        <div class="row bg-secondary">
+            <h4>LANDSCAPE</h4>
+            <div class="col-md-3 ">
+                <div onclick="playmount()">
+                    <img src="img/environment images/mountain.jpg" class=" img-fluid">
+                    <audio id="audiomount" src="img/audio/moutain.mp4"></audio>
+                    <p>MOUNTAIN</p>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div onclick="playhill()">
+                    <img src="img/environment images/hills.jpg" class=" img-fluid">
+                    <audio id="audiohill" src="img/audio/hill.mp4"></audio>
+                    <p>HILLS</p>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div onclick="playmaunt()">
+                    <img src="img/environment images/mountains.jpeg" class=" img-fluid">
+                    <audio id="audiomaunt" src="img/audio/moutains.mp4"></audio>
+                    <p>MOUNTAINS</p>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <img src="img/environment images/small hills.jpg" class=" img-fluid">
+                <p>SMALL HIILS</p>
+            </div>
+        </div>
+        <!-- drawwings -->
+        <div class="row">
+            <h4>DRAWINGS</h4>
+            <div class="col-md-6">
+                <img src="img/environment images/draw.jpg" class=" img-fluid">
+            </div>
+            <div class="col-md-6">
+                <img src="img/environment images/draw2.jpg" class=" img-fluid">
+            </div>
+        </div>
+        <!-- colors -->
+        <div class="colors">
+            <div class="row mb-3">
+                <h4>COLORS</h4>
+                <p id="intro">Know the name of the colours by clicking</p>
+                <div class="col-md-3">
+                    <div class="myColor red" onclick="play()"> <audio id="audio" src="img/audio/red.mp4"></audio></div>
+                </div>
+                <div class="col-md-3">
+                    <div class="myColor blue" onclick="play1()"><audio id="audio1" src="img/audio/blue.mp4"></audio></div>
+                </div>
+                <div class="col-md-3">
+                    <div class="myColor yellow" onclick="play2()"><audio id="audio2" src="img/audio/yellow.mp4"></audio></div>
+                </div>
+                <div class="col-md-3">
+                    <div class="myColor green" onclick="play3()"><audio id="audio3" src="img/audio/green.mp4"></audio></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-3">
+                <div class="myColor orange" onclick="play4()"><audio id="audio4" src="img/audio/orange.mp4"></audio></div>
+            </div>
+            <div class="col-md-3">
+                <div class="myColor black" onclick="play5()"><audio id="audio5" src="img/audio/black.mp4"></audio></div>
+            </div>
+            <div class="col-md-3">
+                <div class="myColor pink" onclick="play6()"><audio id="audio6" src="img/audio/pink.mp4"></audio></div>
+            </div>
+            <div class="col-md-3">
+                <div class="myColor purple" onclick="play7()"><audio id="audio7" src="img/audio/purple.mp4"></audio></div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!-- footers -->
+    <footer class=" d-flex justify-content-around bg-secondary text-light p-5  fs-3 ">
+        <div class="col-4 text-center">
+            <h2>ABOUT US</h2>
+            <p> We love kid because they are the future</p>
+            <p>Creating kids related content is our hobby!!</p>
+        </div>
+        <div class="col-md-4 text-center">              
+              <h2>Around The Web</h2>
+          <div class="icons"></div>
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook-messenger"></i>
+          </div>
+      </div>
+      <div class="col-md-4 text-center">
+          <h2>Contact US</h2>
+           <phone>+254734556432</phone>
+           <div id="email">helpdesk@kid.play.com</div>
+      </div>            
+    </footer>
+</body>
+
+</html>
