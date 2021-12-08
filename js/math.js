@@ -155,3 +155,32 @@ function triangle(){
   var my_sound = document.getElementById('triangle');
   my_sound.play();
 }
+
+//  animate addition results
+$(function () {
+  $("#Add").click(function () { 
+    $('.sum').show(2000, function(){
+      $('.sum1').animate({
+        width:"left"
+      });
+
+      
+      $('.sum2').animate({
+        width:"left"
+      });
+      $('.sum3').animate({
+        width:"left"
+      });
+      $('.sum4').animate({
+        width:"left"
+      });
+      
+      
+      
+      
+    });
+   
+  });
+  
+  
+});
